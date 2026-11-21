@@ -34,6 +34,7 @@ I've spent 4.5 years on the server side of a mobile game that has been running f
 
 ### Public work
 
+- [**Patching a PHP security release in 40 minutes on an LB → ASG → EC2 stack**](https://dev.to/mizuho-yukinoshita/patching-a-php-security-release-in-40-minutes-on-an-lb-asg-ec2-stack-f11) — Backported upstream fixes onto Ubuntu's package and rolled them out to production the same night ([Japanese](https://qiita.com/mizuho-yukinoshita/items/70158680be6672dd357a)).
 - [**infra**](https://github.com/mizuho-yukinoshita/infra) — Terraform templates with keyless auth (AWS / GCP OIDC and Workload Identity), a plan → approve → apply Jenkins pipeline, and CI with tflint and trivy.
 - **OSS** — [Abedalkareem/games_services#177](https://github.com/Abedalkareem/games_services/pull/177): added an optional `forceRefreshToken` to Android `requestServerSideAccess` (merged).
 
@@ -60,6 +61,7 @@ I've spent 4.5 years on the server side of a mobile game that has been running f
 
 ### 公開しているもの
 
+- [**LB → ASG → EC2 構成でも PHP の脆弱性対応を 40 分で終わらせる**](https://qiita.com/mizuho-yukinoshita/items/70158680be6672dd357a)：upstreamの修正をUbuntuのパッケージに移植し、公開当日の夜のうちに本番へ適用した記録（[英語版](https://dev.to/mizuho-yukinoshita/patching-a-php-security-release-in-40-minutes-on-an-lb-asg-ec2-stack-f11)）
 - [**infra**](https://github.com/mizuho-yukinoshita/infra)：Terraformテンプレート集。AWS / GCPのOIDC・Workload Identityによる鍵なし認証、plan→承認→applyのJenkinsパイプライン、tflint・trivyによるCI
 - **OSS**：[Abedalkareem/games_services#177](https://github.com/Abedalkareem/games_services/pull/177)。Androidの `requestServerSideAccess` に `forceRefreshToken` のオプションを追加（マージ済み）
 
